@@ -1,0 +1,25 @@
+/* resources/css/app.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+    --canva-bg: #0e131f;
+    --canva-surface: #181e2a;
+    --canva-primary: #00C4CC;
+    --canva-secondary: #7D2AE8;
+    --canva-text: #ffffff;
+    --canva-text-muted: #8b949e;
+}
+
+body {
+    background-color: var(--canva-bg);
+    color: var(--canva-text);
+    font-family: 'Inter', sans-serif;
+}
+
+.canva-gradient-text {
+    background: linear-gradient(90deg, var(--canva-primary), var(--canva-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      }
